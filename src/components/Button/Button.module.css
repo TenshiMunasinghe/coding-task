@@ -1,0 +1,19 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  place-items: center;
+  padding: 1.5rem 3rem;
+  background-color: rgb(var(--primary-300));
+  border: 0;
+  border-radius: 0.5rem;
+  color: rgb(var(--background-100));
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(var(--primary-400));
+}
+
+.button:active {
+  background-color: rgb(var(--primary-200));
+}
